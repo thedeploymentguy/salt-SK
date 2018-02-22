@@ -9,5 +9,11 @@ index_html:
       - user: apache
       - group: apache
       - mode: 644
-      - source: salt:/apache/templates/index.html
+      - source: salt://apache/templates/index.html
+
+apache_start:
+  service.running:
+    - name: apache
+    - enable: True
+
 
