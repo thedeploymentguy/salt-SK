@@ -13,7 +13,7 @@ index_html:
 
 apache_start:
   service.running:
-    - name: apache
+    - name: httpd
     - enable: True
 
 
