@@ -1,2 +1,2 @@
 # salt-SK
-Basic salt training and practice
+#Basic salt training and practice
